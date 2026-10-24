@@ -1,0 +1,30 @@
+N2 婚姻网络应用
+婚姻边 5806 (标注+预测 1313, 无标注 4493; 其中 A 级 1617)
+labelled       总体 {'n': 1313, 'elite_both': 18.6, 'expected': 15.7, 'ratio': 1.18, 'elite_h': 39.8, 'elite_w': 39.4}
+    初唐 {'n': 442, 'elite_both': 8.4, 'expected': 8.8, 'ratio': 0.96, 'elite_h': 31.4, 'elite_w': 27.8}
+    盛唐 {'n': 269, 'elite_both': 23.8, 'expected': 18.4, 'ratio': 1.29, 'elite_h': 44.6, 'elite_w': 41.3}
+    中唐 {'n': 321, 'elite_both': 23.7, 'expected': 20.1, 'ratio': 1.18, 'elite_h': 45.8, 'elite_w': 43.9}
+    晚唐 {'n': 281, 'elite_both': 23.8, 'expected': 21.0, 'ratio': 1.13, 'elite_h': 41.6, 'elite_w': 50.5}
+unlabelled_A   总体 {'n': 1617, 'elite_both': 22.6, 'expected': 17.5, 'ratio': 1.29, 'elite_h': 39.6, 'elite_w': 44.0}
+    初唐 {'n': 532, 'elite_both': 14.8, 'expected': 11.2, 'ratio': 1.33, 'elite_h': 33.5, 'elite_w': 33.5}
+    盛唐 {'n': 377, 'elite_both': 21.8, 'expected': 16.0, 'ratio': 1.36, 'elite_h': 38.7, 'elite_w': 41.4}
+    中唐 {'n': 403, 'elite_both': 30.8, 'expected': 26.4, 'ratio': 1.16, 'elite_h': 46.9, 'elite_w': 56.3}
+    晚唐 {'n': 305, 'elite_both': 26.2, 'expected': 20.8, 'ratio': 1.26, 'elite_h': 42.0, 'elite_w': 49.5}
+unlabelled_AB  总体 {'n': 2160, 'elite_both': 21.9, 'expected': 17.2, 'ratio': 1.27, 'elite_h': 39.3, 'elite_w': 43.7}
+    初唐 {'n': 687, 'elite_both': 14.3, 'expected': 11.1, 'ratio': 1.29, 'elite_h': 34.1, 'elite_w': 32.5}
+    盛唐 {'n': 507, 'elite_both': 22.9, 'expected': 17.0, 'ratio': 1.35, 'elite_h': 38.5, 'elite_w': 44.2}
+    中唐 {'n': 570, 'elite_both': 28.4, 'expected': 24.2, 'ratio': 1.17, 'elite_h': 44.4, 'elite_w': 54.6}
+    晚唐 {'n': 396, 'elite_both': 24.5, 'expected': 19.8, 'ratio': 1.24, 'elite_h': 42.2, 'elite_w': 47.0}
+unlabelled_all 总体 {'n': 4493, 'elite_both': 22.7, 'expected': 17.9, 'ratio': 1.27, 'elite_h': 40.3, 'elite_w': 44.4}
+    初唐 {'n': 1000, 'elite_both': 13.7, 'expected': 10.9, 'ratio': 1.26, 'elite_h': 33.3, 'elite_w': 32.7}
+    盛唐 {'n': 851, 'elite_both': 23.5, 'expected': 18.0, 'ratio': 1.31, 'elite_h': 39.8, 'elite_w': 45.1}
+    中唐 {'n': 1336, 'elite_both': 28.4, 'expected': 23.4, 'ratio': 1.21, 'elite_h': 45.1, 'elite_w': 51.9}
+    晚唐 {'n': 1306, 'elite_both': 23.3, 'expected': 18.5, 'ratio': 1.26, 'elite_h': 41.1, 'elite_w': 45.0}
+all_A          总体 {'n': 2930, 'elite_both': 20.8, 'expected': 16.7, 'ratio': 1.25, 'elite_h': 39.7, 'elite_w': 41.9}
+    初唐 {'n': 974, 'elite_both': 11.9, 'expected': 10.1, 'ratio': 1.18, 'elite_h': 32.5, 'elite_w': 30.9}
+    盛唐 {'n': 646, 'elite_both': 22.6, 'expected': 17.0, 'ratio': 1.33, 'elite_h': 41.2, 'elite_w': 41.3}
+    中唐 {'n': 724, 'elite_both': 27.6, 'expected': 23.6, 'ratio': 1.17, 'elite_h': 46.4, 'elite_w': 50.8}
+    晚唐 {'n': 586, 'elite_both': 25.1, 'expected': 20.9, 'ratio': 1.2, 'elite_h': 41.8, 'elite_w': 50.0}
+block ratios (all+A): {'SD-SD': 1.32, 'SD-GZ': 0.97, 'GZ-SD': 1.15, 'GZ-GZ': 1.7, 'elite-other': 0.82, 'other-elite': 0.84}
+top surnames: ['李', '王', '张', '崔', '卢', '刘', '郑', '杨', '裴', '赵', '韦', '陈']
+标注集原标签婚姻路径 1182 → 补全后 1112

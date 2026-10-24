@@ -4,7 +4,7 @@ Code for the paper *Kinship Calculus as Free Supervision: Label-Efficient Constr
 
 The idea: kinship relations form a small calculus (eight generators F M S D H W B Z, closed under composition, inversion and *re-rooting*). An LLM parser reads one document from the point of view of one person (the ego) and emits `name | path` lines. The calculus then supplies supervision the labels cannot: it **synthesises** exactly-labelled training documents (KinSynth), **verifies** parses by comparing views from different egos (re-rooting agreement), and **composes** relations across documents through shared persons.
 
-Data (aligned corpus, verified test references, cross-document benchmark, KinSynth corpora, system outputs, the 40,905-person network) are released separately in the companion data repository **TangEpiNet** (link to be added).
+The data are in this repository as well: `data/` (aligned corpus, instruction splits, KinSynth corpora, cross-document benchmark, the three verified test references, the 40,905-person tiered network) and `results/` (every system's dev/test outputs and metrics). `DATA.md` documents the formats and provenance; data and results are licensed CC BY-NC-SA 4.0 (`LICENSE-DATA`), code MIT (`LICENSE`).
 
 ## Contents
 
@@ -66,7 +66,7 @@ Paths inside the scripts follow the original project layout (`sft/`, `runs/`, `r
 
 ## Licence
 
-MIT (see `LICENSE`). The data repository is CC BY-NC-SA 4.0 because its labels derive from the China Biographical Database.
+Code: MIT (`LICENSE`). Data and results: CC BY-NC-SA 4.0 (`LICENSE-DATA`), because the labels derive from the China Biographical Database.
 
 ## Citation
 

@@ -1,0 +1,78 @@
+{
+ "epinet": {
+  "train": {
+   "documents": 2237,
+   "nodes": 18218,
+   "edges": 29830,
+   "with_recognised_ego": 1881
+  },
+  "dev": {
+   "documents": 286,
+   "nodes": 2590,
+   "edges": 4044,
+   "with_recognised_ego": 227
+  },
+  "test": {
+   "documents": 227,
+   "nodes": 1969,
+   "edges": 3128,
+   "with_recognised_ego": 191
+  }
+ },
+ "sft": {
+  "G_train.jsonl": 1755,
+  "G_dev.jsonl": 213,
+  "G_test.jsonl": 182,
+  "unlabeled.jsonl": 6296
+ },
+ "kinsynth": {
+  "kinsynth_zh_ego_root_6k.jsonl": 6000,
+  "kinsynth_zh_any_root_6k.jsonl": 12000,
+  "kinsynth_zh_any_root_role_marker_6k.jsonl": 12000,
+  "kinsynth_en_6k.jsonl": 6000
+ },
+ "crossdoc": {
+  "pairs": 170,
+  "by_gold_length": {
+   "3": 31,
+   "1": 93,
+   "2": 46
+  }
+ },
+ "verified_test": {
+  "t1_ai": {
+   "对": 255,
+   "名字有误": 145,
+   "无此人": 75,
+   "错": 126,
+   "无法判断": 19
+  },
+  "t1_expert": {
+   "对": 190,
+   "名字有误": 263,
+   "无此人": 61,
+   "错": 97,
+   "无法判断": 9
+  },
+  "t1_consensus": {
+   "对": 181,
+   "名字有误": 141,
+   "无此人": 58,
+   "错": 81,
+   "无法判断": 159
+  }
+ },
+ "network": {
+  "nodes": 40905,
+  "edges_ego_path": 35288,
+  "edges_primitive": 30117,
+  "ego_path_edges_by_tier": {
+   "L": 7606,
+   "P": 1606,
+   "B": 3396,
+   "A": 12607,
+   "D": 6995,
+   "C": 3078
+  }
+ }
+}
